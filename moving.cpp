@@ -1,3 +1,16 @@
+#include <iostream>
+#include<unistd.h>
+#include "drawing.hpp"
+#include <curses.h>
+struct point { // a struct to handle the point we at  
+int x=0,y=0,temp;
+
+};
+
+int  press () {
+
+
+
 int press = getch();
     if (press!=ERR){
     ungetch(press); // pushes the buttom to the head of the queue of buttons 
@@ -15,8 +28,8 @@ std :: cout.flush();
 noecho();
 nodelay(stdscr, TRUE);
 scrollok (stdscr,TRUE);
- mat.temp=nums[mat.y][mat.x];//saves the init value of [0][0] for moving  
-while (true)
+ mat.temp=nums[mat.y][mat.x];//saves the init value of [0][0] for moving
+ while (true)
 
 {
 
@@ -80,9 +93,6 @@ while (true)
                     nums [mat.y][mat.x]=mat.temp=5;
                     break;
             case 54 :
-  GNU nano 5.4                         txt                            M     
-                    break;
-            case 54 :
                     nums [mat.y][mat.x]=mat.temp=6;
                     break;
             case 55 :
@@ -97,9 +107,8 @@ while (true)
             default :
                     nums [mat.y][mat.x] = mat.temp; 
 
-
                 }
-       if (input<=119&&input>=97 ) // to return it the way it was          >
+       if (input<=119&&input>=97 ) // to return it the way it was                
         {
 //              nums [mat.y][mat.x]= mat.;
         std ::cout <<" wrks " ;
@@ -119,6 +128,3 @@ std :: cout << "works " ;
 moving ()  ;}
 
 */
-
-
- 
