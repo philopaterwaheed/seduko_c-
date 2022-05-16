@@ -8,7 +8,7 @@ for (int i = 0 ; i <= 9; i ++)
    
     std :: cout << "-";
 
-   std :: cout <<std::endl;
+   std :: cout <<"\n";
 for (int i =0 ; i< 9 ;i++)
         {
             for (int j= 0; j<=18;j++)
@@ -30,8 +30,8 @@ for (int i =0 ;i <=9;i++)
 
 
 
-sleep(10);
-//std :: system("clear");
+sleep(1);
+std :: system("clear");
 
 }
 }
