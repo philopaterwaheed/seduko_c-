@@ -17,7 +17,7 @@ for (int i =0 ; i< 9 ;i++)
                  if (j %2==0 )
                         std :: cout<<"|";
                     else 
-                       std :: cout <<numbers[i][j/2];
+                       std :: cout <<nums[i][j/2];
 
 
 
