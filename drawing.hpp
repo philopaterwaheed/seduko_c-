@@ -15,7 +15,7 @@ for (int i =0 ; i< 9 ;i++)
                 {
  
                  if (j %2==0 )
-                        std :: cout<<"|";
+                        std :: cout<<"|";//prints a line to seperate the elements 
                     else 
                        std :: cout <<nums[i][j/2];
 
