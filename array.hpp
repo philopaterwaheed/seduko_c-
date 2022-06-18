@@ -1,4 +1,3 @@
-  GNU nano 5.4                      array.hpp                         M     
 #include <ctime>
 
 int  nums [9][9] = {/*arrat repre the game set */
