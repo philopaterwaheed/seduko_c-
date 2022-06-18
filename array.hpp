@@ -14,7 +14,7 @@ int  nums [9][9] = {/*arrat repre the game set */
 
 };
 struct point {int x=0,y=0,temp; };/* a struct to handle the points of the array */
-point mat ; /* to repre any point of the array
+point mat ; /* to repre any point of the array*/
 class pregame : public point  {/* handles the pregame prepairs */
 public:
         pregame() { /* a constructor that excutes before the game */
